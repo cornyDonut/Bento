@@ -11,10 +11,10 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'cornyDonut',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
@@ -23,14 +23,16 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+  weatherKey: '327ea8bfc466d4fd42a9e720c737b17f',
+  weatherIcons: 'Nord', // 'Nord', 'Dark', 'White'
+  weatherLatitude: '48.884048',
+  weatherLongitude: '2.322434',
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '48.884048',
+  defaultLongitude: '2.322434',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -46,33 +48,33 @@ const CONFIG = {
     },
     {
       id: '2',
+      name: 'Reddit',
+      icon: 'glasses',
+      link: 'https://reddit.com/',
+    },
+    {
+      id: '3',
+      name: 'Twitter',
+      icon: 'twitter',
+      link: 'https://twitter.com/',
+    },
+    {
+      id: '4',
       name: 'Mail',
       icon: 'mail',
       link: 'https://mail.protonmail.com/',
     },
     {
-      id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
-    },
-    {
-      id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
       id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
+      name: 'YouTube',
+      icon: 'youtube',
+      link: 'https://youtube.com/',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Twitch',
+      icon: 'twitch',
+      link: 'https://www.twitch.tv/',
     },
   ],
 
@@ -81,45 +83,29 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'code',
+  secondListIcon: 'briefcase',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'OpenClassrooms',
+        link: 'https://openclassrooms.com/',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Project Euler',
+        link: 'https://projecteuler.net/',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Ent',
+        link: 'https://ent.iledefrance.fr/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
-      },
-      {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
-      },
-      {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Parcoursup',
+        link: 'https://www.parcoursup.fr/',
       },
     ],
   },
