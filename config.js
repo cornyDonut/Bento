@@ -108,6 +108,14 @@ const CONFIG = {
         name: 'Parcoursup',
         link: 'https://www.parcoursup.fr/',
       },
+      {
+        name: 'PayPal',
+        link: 'https://www.paypal.com/myaccount/summary/',
+      },
+      {
+        name: 'LocalMonero',
+        link: 'https://localmonero.co/',
+      },
     ],
     thirdList: [
       {
