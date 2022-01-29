@@ -18,12 +18,12 @@
   --iconsize: 3vh;
 
   /* Light theme  */
-  --accent: #61b0f1; /* Hover color */
-  --bg: #f5f5f5; /* Background color */
-  --sbg: #e4e6e6; /* Cards color */
+  --accent: #5e81ac; /* Hover color */
+  --bg: #2e3440; /* Background color */
+  --sbg: #3b4252; /* Cards color */
 
-  --fg: #3a3a3a; /* Foreground color */
-  --sfg: #3a3a3a; /* Sceondary Foreground color */
+  --fg: #eceff4; /* Foreground color */
+  --sfg: #d8dee9; /* Sceondary Foreground color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg);
