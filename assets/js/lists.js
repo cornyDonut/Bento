@@ -42,5 +42,26 @@ const printSecondList = () => {
   }
 };
 
+// Print the third List
+const printThirdList = () => {
+  let icon = `<i class="list__head" icon-name="${CONFIG.secondListIcon}"></i>`;
+  const position = 'beforeend';
+  list_3.insertAdjacentHTML(position, icon);
+  for (const link of CONFIG.lists.secondList) {
+    // List item
+    let item = `
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${link.link}"
+          class="list__link"
+          >${link.name}</a
+          >
+      `;
+    const position = 'beforeend';
+    list_3.insertAdjacentHTML(position, item);
+  }
+};
+
 printFirstList();
 printSecondList();
+printThirdList();
