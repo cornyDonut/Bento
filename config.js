@@ -85,6 +85,7 @@ const CONFIG = {
   //Icons
   firstListIcon: 'code',
   secondListIcon: 'briefcase',
+  thirdListIcon: 'dollar-sign',
 
   // Links
   lists: {
@@ -106,6 +107,16 @@ const CONFIG = {
       {
         name: 'Parcoursup',
         link: 'https://www.parcoursup.fr/',
+      },
+    ],
+    thirdList: [
+      {
+        name: 'PayPal',
+        link: 'https://www.paypal.com/myaccount/summary/',
+      },
+      {
+        name: 'LocalMonero',
+        link: 'https://localmonero.co/',
       },
     ],
   },
