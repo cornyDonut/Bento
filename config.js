@@ -120,7 +120,7 @@ const CONFIG = {
     thirdList: [
       {
         name: 'PayPal',
-        link: 'https://www.paypal.com/myaccount/summary/',
+        link: 'https://www.paypal.com/signin/',
       },
       {
         name: 'LocalMonero',
