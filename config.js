@@ -110,16 +110,6 @@ const CONFIG = {
       },
       {
         name: 'PayPal',
-        link: 'https://www.paypal.com/myaccount/summary/',
-      },
-      {
-        name: 'LocalMonero',
-        link: 'https://localmonero.co/',
-      },
-    ],
-    thirdList: [
-      {
-        name: 'PayPal',
         link: 'https://www.paypal.com/signin/',
       },
       {
